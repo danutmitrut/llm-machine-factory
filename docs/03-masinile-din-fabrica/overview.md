@@ -1,6 +1,6 @@
-# Mașinile din Fabrică - Overview
+# Mașinile din fabrică - overview
 
-## Ecosistemul de Mașini
+## Ecosistemul de mașini
 
 LLM Machine Factory include **3 mașini principale** + **1 fabrică** (AIM):
 
@@ -10,16 +10,16 @@ LLM Machine Factory include **3 mașini principale** + **1 fabrică** (AIM):
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
 │   ┌─────────────────────────────────────────────────────┐   │
-│   │          AIM - Fabrica de Mașini                    │   │
-│   │     (Arhitectul Inteligent de Metaprompturi)        │   │
+│   │          AIM - fabrica de mașini                    │   │
+│   │     (Arhitectul inteligent de metaprompturi)        │   │
 │   └──────────────────────┬──────────────────────────────┘   │
 │                          │                                  │
 │            ┌─────────────┼─────────────┐                    │
 │            ▼             ▼             ▼                    │
 │   ┌────────────┐ ┌──────────────┐ ┌────────────┐            │
 │   │ Arhitect   │ │  Auditor de  │ │ Arhitect   │            │
-│   │ de Soluții │ │ Veridicitate │ │ Meta-      │            │
-│   │   V2.3     │ │    V1.0      │ │ Cognitive  │            │
+│   │ de soluții │ │ veridicitate │ │ meta-      │            │
+│   │   V2.3     │ │    V1.0      │ │ cognitive  │            │
 │   └────────────┘ └──────────────┘ └────────────┘            │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
@@ -31,16 +31,16 @@ LLM Machine Factory include **3 mașini principale** + **1 fabrică** (AIM):
 
 | Ai nevoie să... | Folosește |
 |-----------------|-----------|
-| Rezolvi o problemă complexă | [Arhitect de Soluții V2.3](arhitect-solutii.md) |
-| Verifici un text pentru halucinații | [Auditor de Veridicitate V1.0](auditor-veridicitate.md) |
-| Construiești o mașină nouă (rapid) | [Arhitect Meta-Cognitive V1.0](arhitect-meta-cognitive.md) |
+| Rezolvi o problemă complexă | [Arhitect de soluții V2.3](arhitect-solutii.md) |
+| Verifici un text pentru halucinații | [Auditor de veridicitate V1.0](auditor-veridicitate.md) |
+| Construiești o mașină nouă (rapid) | [Arhitect meta-cognitive V1.0](arhitect-meta-cognitive.md) |
 | Construiești o mașină nouă (cu control) | [AIM](../02-piesa-centrala-aim/aim-complet.md) |
 
 ---
 
 ## Descriere scurtă a fiecărei mașini
 
-### Arhitect de Soluții V2.3
+### Arhitect de soluții V2.3
 **Motorul principal de raționament**
 
 - Primește o problemă complexă
@@ -49,13 +49,13 @@ LLM Machine Factory include **3 mașini principale** + **1 fabrică** (AIM):
 - Generează soluție originală, acționabilă, ancorată în realitate
 
 **Caracteristici cheie:**
-- Principiul Continuității Cognitive
+- Principiul continuității cognitive
 - Căutare web integrată
 - Raționament vizibil (vezi fiecare iterație)
 
 ---
 
-### Auditor de Veridicitate V1.0
+### Auditor de veridicitate V1.0
 **Verificator anti-halucinație**
 
 - Primește un text de auditat
@@ -70,7 +70,7 @@ LLM Machine Factory include **3 mașini principale** + **1 fabrică** (AIM):
 
 ---
 
-### Arhitect Meta-Cognitive V1.0
+### Arhitect meta-cognitive V1.0
 **Generator automat de mașini**
 
 - Primește descrierea unei mașini dorite
@@ -88,19 +88,19 @@ LLM Machine Factory include **3 mașini principale** + **1 fabrică** (AIM):
 
 ### Pentru analiză riguroasă:
 ```
-Arhitect de Soluții → Auditor de Veridicitate
+Arhitect de soluții → Auditor de veridicitate
 ```
 Generezi soluția, apoi o verifici pentru halucinații.
 
 ### Pentru construcție de mașini:
 ```
-AIM (pentru prima dată) → Arhitect Meta-Cognitive (pentru iterații rapide)
+AIM (pentru prima dată) → Arhitect meta-cognitive (pentru iterații rapide)
 ```
-Înveți procesul cu AIM, apoi accelerezi cu Arhitectul Meta-Cognitive.
+Înveți procesul cu AIM, apoi accelerezi cu Arhitectul meta-cognitive.
 
 ### Pentru decizii importante:
 ```
-Arhitect de Soluții → Auditor → Arhitect de Soluții (cu feedback)
+Arhitect de soluții → Auditor → Arhitect de soluții (cu feedback)
 ```
 Ciclu de rafinare: generare → verificare → regenerare.
 
@@ -109,7 +109,7 @@ Ciclu de rafinare: generare → verificare → regenerare.
 ## Următorul pas
 
 Alege mașina de care ai nevoie:
-- → [Arhitect de Soluții V2.3](arhitect-solutii.md) - rezolvă probleme
-- → [Auditor de Veridicitate V1.0](auditor-veridicitate.md) - verifică texte
-- → [Arhitect Meta-Cognitive V1.0](arhitect-meta-cognitive.md) - construiește mașini rapid
+- → [Arhitect de soluții V2.3](arhitect-solutii.md) - rezolvă probleme
+- → [Auditor de veridicitate V1.0](auditor-veridicitate.md) - verifică texte
+- → [Arhitect meta-cognitive V1.0](arhitect-meta-cognitive.md) - construiește mașini rapid
 - → [Cum le combini](cum-le-combini.md) - workflow-uri avansate

@@ -1,10 +1,10 @@
-# De la V1.0 la V2.3 - Evoluția Mașinilor
+# De la V1.0 la V2.3 - evoluția mașinilor
 
 Acest capitol documentează cum s-au născut Mașinile Metacognitive - nu dintr-un plan teoretic, ci dintr-un proces de experimentare și auto-îmbunătățire.
 
 ---
 
-## Punctul de plecare: O întrebare simplă
+## Punctul de plecare: o întrebare simplă
 
 Totul a început cu o întrebare:
 
@@ -14,9 +14,9 @@ Răspunsul inițial a fost să creez un prompt care să forțeze raționamentul 
 
 ---
 
-## V1.0 - Prima tentativă
+## V1.0 - prima tentativă
 
-**Ideea:** Să cer LLM-ului să-și pună întrebări și să-și răspundă singur, iterativ.
+**Ideea:** să cer LLM-ului să-și pună întrebări și să-și răspundă singur, iterativ.
 
 **Ce funcționa:**
 - LLM-ul genera mai multe iterații de gândire
@@ -29,7 +29,7 @@ Răspunsul inițial a fost să creez un prompt care să forțeze raționamentul 
 
 ---
 
-## V2.0 - Adăugarea structurii
+## V2.0 - adăugarea structurii
 
 **Îmbunătățiri:**
 - Format standardizat pentru iterații
@@ -39,22 +39,22 @@ Răspunsul inițial a fost să creez un prompt care să forțeze raționamentul 
 **Formatul introdus:**
 ```
 Iterația [Număr]: [Titlu]
-- Întrebare Internă Cheie: [...]
-- Răspuns Intern / Concluzie: [...]
-- Tip de Raționament: [...]
+- Întrebare internă cheie: [...]
+- Răspuns intern / concluzie: [...]
+- Tip de raționament: [...]
 ```
 
-**Rezultat:** Mai organizat, dar încă simula în loc să gândească autentic.
+**Rezultat:** mai organizat, dar încă simula în loc să gândească autentic.
 
 ---
 
-## Descoperirea cheie: Simulare vs. Construcție
+## Descoperirea cheie: simulare vs. construcție
 
 Observația critică:
 
 > LLM-urile tind să "știe" răspunsul dinainte și să construiască o justificare care pare logică, dar e fabricată retroactiv.
 
-**Soluția:** Principiul Continuității Cognitive
+**Soluția:** Principiul continuității cognitive
 
 > "Fiecare iterație se construiește EXCLUSIV pe baza concluziilor generate în iterațiile anterioare. Este interzisă pre-calcularea soluției finale și inventarea retroactivă a pașilor."
 
@@ -62,48 +62,48 @@ Această directivă explicită a schimbat fundamental comportamentul.
 
 ---
 
-## V2.1 - Principiul Continuității Cognitive
+## V2.1 - Principiul continuității cognitive
 
 **Adăugare majoră:**
 - Directiva explicită anti-simulare
 - Instrucțiuni pentru evaluare progresivă
-- "Reflecție și Ajustare" ca tip de raționament
+- "Reflecție și ajustare" ca tip de raționament
 
-**Impact:** Raționamentul a devenit mai autentic - LLM-ul chiar "descoperă" pe parcurs.
+**Impact:** raționamentul a devenit mai autentic - LLM-ul chiar "descoperă" pe parcurs.
 
 ---
 
-## V2.2 - Dialogul cu utilizatorul
+## V2.2 - dialogul cu utilizatorul
 
-**Problemă identificată:** Chiar și cu raționament autentic, LLM-ul putea merge în direcția greșită fără să știe.
+**Problemă identificată:** chiar și cu raționament autentic, LLM-ul putea merge în direcția greșită fără să știe.
 
-**Soluția:** Punctul de Sincronizare
+**Soluția:** punctul de sincronizare
 
 ```
 [PUNCT DE SINCRONIZARE]
-- Sumar Progres: Ce am descoperit până acum
-- Bifurcație: Pot merge pe direcția A sau B
-- Întrebare: Ce preferați?
+- Sumar progres: ce am descoperit până acum
+- Bifurcație: pot merge pe direcția A sau B
+- Întrebare: ce preferați?
 ```
 
-**Impact:** Transformă monologul în dialog. Utilizatorul corectează direcția la timp.
+**Impact:** transformă monologul în dialog. Utilizatorul corectează direcția la timp.
 
 ---
 
-## V2.3 - Ancorare în realitate
+## V2.3 - ancorare în realitate
 
-**Problemă identificată:** Chiar și cu raționament bun, informațiile puteau fi inventate.
+**Problemă identificată:** chiar și cu raționament bun, informațiile puteau fi inventate.
 
-**Soluția:** Căutare Web integrată
+**Soluția:** căutare web integrată
 
 ```
-[Acțiune: Căutare Web]
+[Acțiune: căutare web]
 - Nevoia de informație: [...]
 - Termeni de căutare: [...]
 - Sinteza găsită: [...]
 ```
 
-**Impact:** Soluțiile sunt acum ancorate în date reale, nu doar în "cunoștințele" LLM-ului.
+**Impact:** soluțiile sunt acum ancorate în date reale, nu doar în "cunoștințele" LLM-ului.
 
 ---
 
@@ -113,11 +113,11 @@ Odată V2.3 stabil, s-a pus întrebarea:
 
 > "Pot crea o mașină care să genereze alte mașini?"
 
-**Răspunsul:** DA - și așa s-a născut AIM (Arhitectul Inteligent de Metaprompturi).
+**Răspunsul:** DA - și așa s-a născut AIM (Arhitectul inteligent de metaprompturi).
 
 Din această "fabrică" au ieșit:
-- Auditorul de Veridicitate (pentru verificare)
-- Arhitectul Meta-Cognitive (versiune automată a AIM)
+- Auditorul de veridicitate (pentru verificare)
+- Arhitectul meta-cognitive (versiune automată a AIM)
 - Și posibilitatea de a crea orice altă mașină
 
 ---
@@ -127,35 +127,35 @@ Din această "fabrică" au ieșit:
 ```
 V1.0 ──► V2.0 ──► V2.1 ──► V2.2 ──► V2.3
   │        │        │        │        │
-  │        │        │        │        └─ Căutare Web
-  │        │        │        └─ Punct Sincronizare
-  │        │        └─ Continuitate Cognitivă
-  │        └─ Structură & Tipuri Raționament
-  └─ Iterații de bază
+  │        │        │        │        └─ căutare web
+  │        │        │        └─ punct sincronizare
+  │        │        └─ continuitate cognitivă
+  │        └─ structură & tipuri raționament
+  └─ iterații de bază
 
                     ▼
 
               ┌─────────┐
-              │   AIM   │ ─── Fabrica de Mașini
+              │   AIM   │ ─── fabrica de mașini
               └────┬────┘
                    │
          ┌─────────┼─────────┐
          ▼         ▼         ▼
      Arhitect   Auditor   Alte
-     Soluții   Veridicitate  Mașini
+     soluții   veridicitate  mașini
 ```
 
 ---
 
 ## Lecția fundamentală
 
-Mașinile Metacognitive nu au fost "proiectate" - au **evoluat**.
+Mașinile metacognitive nu au fost "proiectate" - au **evoluat**.
 
 Fiecare versiune a rezolvat o problemă observată în practica versiunii anterioare:
-- V2.0: "E prea haotic" → Structură
-- V2.1: "Simulează" → Continuitate Cognitivă
-- V2.2: "Merge în direcția greșită" → Sincronizare
-- V2.3: "Inventează fapte" → Căutare Web
+- V2.0: "E prea haotic" → structură
+- V2.1: "Simulează" → continuitate cognitivă
+- V2.2: "Merge în direcția greșită" → sincronizare
+- V2.3: "Inventează fapte" → căutare web
 
 Această abordare iterativă e aplicabilă și la construcția propriilor mașini.
 

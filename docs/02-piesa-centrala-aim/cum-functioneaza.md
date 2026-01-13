@@ -8,19 +8,19 @@ AIM este structurat în **7 module** care se execută secvențial:
 ┌─────────────────────────────────────────────────────────────┐
 │                         AIM V1.0                            │
 ├─────────────────────────────────────────────────────────────┤
-│  Modul 1: Colectare Necesități (Întrebări 1-3)             │
+│  Modul 1: colectare necesități (întrebări 1-3)             │
 │     ↓                                                       │
-│  Modul 2: Sincronizare 1 - Viziunea Generală               │
+│  Modul 2: sincronizare 1 - viziunea generală               │
 │     ↓                                                       │
-│  Modul 3: Definire Raționament & Filtre (Întrebări 4-5)    │
+│  Modul 3: definire raționament & filtre (întrebări 4-5)    │
 │     ↓                                                       │
-│  Modul 4: Sincronizare 2 - Arhitectura Cognitivă           │
+│  Modul 4: sincronizare 2 - arhitectura cognitivă           │
 │     ↓                                                       │
-│  Modul 5: Detalii Operaționale (Întrebări 6-7)             │
+│  Modul 5: detalii operaționale (întrebări 6-7)             │
 │     ↓                                                       │
-│  Modul 6: Sincronizare 3 - Confirmare Finală               │
+│  Modul 6: sincronizare 3 - confirmare finală               │
 │     ↓                                                       │
-│  Modul 7: Generare Finală Metaprompt                       │
+│  Modul 7: generare finală metaprompt                       │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -28,7 +28,7 @@ AIM este structurat în **7 module** care se execută secvențial:
 
 ## Detaliu pe module
 
-### Modul 1: Colectare Necesități Inițiale
+### Modul 1: colectare necesități inițiale
 
 AIM adresează primele 3 întrebări fundamentale:
 
@@ -46,7 +46,7 @@ AIM adresează primele 3 întrebări fundamentale:
 
 ---
 
-### Modul 2: Sincronizare 1 - Viziunea Generală
+### Modul 2: sincronizare 1 - viziunea generală
 
 ```
 [PUNCT DE SINCRONIZARE 1: Viziunea Generală a Mașinii LLM]
@@ -59,13 +59,13 @@ Sumar Progres: Am înțeles că noua Mașină LLM va avea scopul de:
 sau clarificări pe care dorești să le faci?
 ```
 
-**De ce e important:** Previne divergența. Dacă AIM a înțeles greșit, corectezi acum, nu la final.
+**De ce e important:** previne divergența. Dacă AIM a înțeles greșit, corectezi acum, nu la final.
 
 ---
 
-### Modul 3: Definire Raționament și Filtre
+### Modul 3: definire raționament și filtre
 
-**Întrebarea 4:** Ce tipuri de raționament avansat?
+**Întrebarea 4:** ce tipuri de raționament avansat?
 
 Opțiuni disponibile:
 - Analogii inter-domenii
@@ -75,7 +75,7 @@ Opțiuni disponibile:
 - Sinteză creativă
 - Toate cele de mai sus
 
-**Întrebarea 5:** Ce filtre anti-halucinație?
+**Întrebarea 5:** ce filtre anti-halucinație?
 
 Opțiuni:
 - Filtre proactive (din "Generare Sigură") - verificare în timp real
@@ -85,7 +85,7 @@ Opțiuni:
 
 ---
 
-### Modul 4: Sincronizare 2 - Arhitectura Cognitivă
+### Modul 4: sincronizare 2 - arhitectura cognitivă
 
 ```
 [PUNCT DE SINCRONIZARE 2: Arhitectura Cognitivă]
@@ -100,9 +100,9 @@ gândire și validare al Mașinii LLM?
 
 ---
 
-### Modul 5: Detalii Operaționale
+### Modul 5: detalii operaționale
 
-**Întrebarea 6:** Puncte de sincronizare?
+**Întrebarea 6:** puncte de sincronizare?
 
 - Vrei ca mașina generată să aibă puncte de sincronizare?
 - Dacă da, unde în workflow?
@@ -110,7 +110,7 @@ gândire și validare al Mașinii LLM?
   - Înainte de soluția finală?
   - La bifurcații majore?
 
-**Întrebarea 7:** Constrângeri și criterii de succes?
+**Întrebarea 7:** constrângeri și criterii de succes?
 
 - Lungime maximă răspuns?
 - Ton formal/informal?
@@ -119,7 +119,7 @@ gândire și validare al Mașinii LLM?
 
 ---
 
-### Modul 6: Sincronizare 3 - Confirmare Finală
+### Modul 6: sincronizare 3 - confirmare finală
 
 ```
 [PUNCT DE SINCRONIZARE 3: Confirmarea Designului Final]
@@ -140,7 +140,7 @@ generăm metapromptul complet?
 
 ---
 
-### Modul 7: Generare Finală
+### Modul 7: generare finală
 
 După confirmare, AIM generează:
 
@@ -154,9 +154,9 @@ După confirmare, AIM generează:
 
 ### De ce 3 sincronizări?
 
-- **Sincronizarea 1:** Previne divergența fundamentală
-- **Sincronizarea 2:** Confirmă "creierul" mașinii
-- **Sincronizarea 3:** Ultima șansă de ajustare înainte de generare
+- **Sincronizarea 1:** previne divergența fundamentală
+- **Sincronizarea 2:** confirmă "creierul" mașinii
+- **Sincronizarea 3:** ultima șansă de ajustare înainte de generare
 
 ### De ce întrebări secvențiale?
 
@@ -166,4 +166,4 @@ Fiecare întrebare construiește pe răspunsurile anterioare. Nu poți defini ra
 
 ## Următorul pas
 
-→ [AIM - Mașina completă (copy-paste ready)](aim-complet.md)
+→ [AIM - mașina completă (copy-paste ready)](aim-complet.md)

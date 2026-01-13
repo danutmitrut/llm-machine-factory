@@ -1,51 +1,51 @@
-# Cum le combini - Workflow-uri Avansate
+# Cum le combini - workflow-uri avansate
 
 Mașinile din acest pachet sunt **modulare** - pot fi combinate pentru rezultate mai bune.
 
 ---
 
-## Combinația 1: Soluție Verificată
+## Combinația 1: soluție verificată
 
-**Scenariu:** Ai o problemă complexă și vrei o soluție în care poți avea încredere.
+**Scenariu:** ai o problemă complexă și vrei o soluție în care poți avea încredere.
 
 ```
 ┌─────────────────────┐     ┌─────────────────────┐
-│  Arhitect Soluții   │ ──► │     Auditor de      │
-│       V2.3          │     │    Veridicitate     │
+│  Arhitect soluții   │ ──► │     Auditor de      │
+│       V2.3          │     │    veridicitate     │
 └─────────────────────┘     └─────────────────────┘
      Generează                   Verifică
       soluția                  pentru halucinații
 ```
 
 **Pași:**
-1. Folosești Arhitectul de Soluții pentru problema ta
+1. Folosești Arhitectul de soluții pentru problema ta
 2. Copiezi soluția generată
-3. O dai la Auditorul de Veridicitate
+3. O dai la Auditorul de veridicitate
 4. Primești raport cu ce e verificat și ce necesită atenție
 
-**Când:** Decizii de business, analize pentru clienți, rapoarte importante
+**Când:** decizii de business, analize pentru clienți, rapoarte importante
 
 ---
 
-## Combinația 2: Ciclu de Rafinare
+## Combinația 2: ciclu de rafinare
 
-**Scenariu:** Vrei să iterezi până când soluția e perfectă.
+**Scenariu:** vrei să iterezi până când soluția e perfectă.
 
 ```
 ┌─────────────────────┐
-│  Arhitect Soluții   │
+│  Arhitect soluții   │
 │       V2.3          │
 └─────────┬───────────┘
           │
           ▼
 ┌─────────────────────┐
 │     Auditor de      │
-│    Veridicitate     │
+│    veridicitate     │
 └─────────┬───────────┘
           │
           ▼ (dacă scor > 2)
 ┌─────────────────────┐
-│  Arhitect Soluții   │◄─── Cu feedback-ul
+│  Arhitect soluții   │◄─── cu feedback-ul
 │    (re-generare)    │     din audit
 └─────────────────────┘
 ```
@@ -59,17 +59,17 @@ Mașinile din acest pachet sunt **modulare** - pot fi combinate pentru rezultate
 4. Auditezi din nou
 5. Repetă până scor < 2
 
-**Când:** Documente critice, cercetare, decizii ireversibile
+**Când:** documente critice, cercetare, decizii ireversibile
 
 ---
 
-## Combinația 3: Fabrică + Producție
+## Combinația 3: fabrică + producție
 
-**Scenariu:** Construiești o mașină nouă și o testezi imediat.
+**Scenariu:** construiești o mașină nouă și o testezi imediat.
 
 ```
 ┌─────────────────────┐     ┌─────────────────────┐
-│        AIM          │ ──► │    Mașina Nouă      │
+│        AIM          │ ──► │    Mașina nouă      │
 │  (construiești)     │     │    (testezi)        │
 └─────────────────────┘     └─────────────────────┘
           │                           │
@@ -87,13 +87,13 @@ Mașinile din acest pachet sunt **modulare** - pot fi combinate pentru rezultate
    - Ajustezi specificațiile
 4. Re-generezi și re-testezi
 
-**Când:** Dezvoltare de mașini pentru clienți, produse noi
+**Când:** dezvoltare de mașini pentru clienți, produse noi
 
 ---
 
-## Combinația 4: Audit Pre-Publicare
+## Combinația 4: audit pre-publicare
 
-**Scenariu:** Ai generat conținut și vrei să-l verifici înainte de publicare.
+**Scenariu:** ai generat conținut și vrei să-l verifici înainte de publicare.
 
 ```
 ┌─────────────────────┐     ┌─────────────────────┐
@@ -113,30 +113,30 @@ Mașinile din acest pachet sunt **modulare** - pot fi combinate pentru rezultate
 3. Îl trimiți la Auditor
 4. Corectezi manual ce e semnalat
 
-**Când:** Blogging, documentație, comunicare externă
+**Când:** blogging, documentație, comunicare externă
 
 ---
 
-## Anti-pattern-uri (Ce să NU faci)
+## Anti-pattern-uri (ce să NU faci)
 
 ### Nu combina în paralel
 ```
-❌ Greșit: Trimiți aceeași problemă la 2 mașini simultan
-✓ Corect: Secvențial - una după alta
+❌ Greșit: trimiți aceeași problemă la 2 mașini simultan
+✓ Corect: secvențial - una după alta
 ```
 Mașinile sunt proiectate să lucreze pe output-ul celeilalte, nu pe același input.
 
 ### Nu sări peste audit pentru decizii importante
 ```
-❌ Greșit: Arhitect Soluții → Implementare directă
-✓ Corect: Arhitect Soluții → Auditor → Implementare
+❌ Greșit: Arhitect soluții → Implementare directă
+✓ Corect: Arhitect soluții → Auditor → Implementare
 ```
 5 minute de audit pot preveni ore de corecții.
 
 ### Nu reconstrui mașini de la zero
 ```
-❌ Greșit: Vrei o variantă ușor diferită → construiești de la zero cu AIM
-✓ Corect: Modifici manual metapromptul existent
+❌ Greșit: vrei o variantă ușor diferită → construiești de la zero cu AIM
+✓ Corect: modifici manual metapromptul existent
 ```
 Dacă mașina e 80% ce vrei, editează direct.
 
@@ -146,12 +146,12 @@ Dacă mașina e 80% ce vrei, editează direct.
 
 ### Pentru consultanță:
 ```
-Problemă client → Arhitect Soluții → Auditor → Livrare
+Problemă client → Arhitect soluții → Auditor → Livrare
 ```
 
 ### Pentru cercetare:
 ```
-Întrebare → Arhitect Soluții → Auditor → Arhitect (rafinare) → Auditor → Raport final
+Întrebare → Arhitect soluții → Auditor → Arhitect (rafinare) → Auditor → Raport final
 ```
 
 ### Pentru product development:
@@ -163,4 +163,4 @@ Nevoie → AIM (construiești mașina) → Test → Ajustare → Livrare la clie
 
 ## Următorul pas
 
-→ [Istoria Proiectului](../04-istoria-proiectului/evolutia.md) - cum s-au născut aceste mașini
+→ [Istoria proiectului](../04-istoria-proiectului/evolutia.md) - cum s-au născut aceste mașini

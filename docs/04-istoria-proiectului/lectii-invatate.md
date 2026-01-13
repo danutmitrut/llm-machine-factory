@@ -1,70 +1,70 @@
 # Lecții învățate
 
-Construirea Mașinilor Metacognitive a relevat insight-uri valoroase despre cum funcționează LLM-urile și cum să le folosești mai bine.
+Construirea mașinilor metacognitive a relevat insight-uri valoroase despre cum funcționează LLM-urile și cum să le folosești mai bine.
 
 ---
 
 ## Lecția 1: LLM-urile simulează dacă le lași
 
-**Observație:** Fără instrucțiuni explicite, LLM-urile tind să "știe" răspunsul și să construiască o justificare retroactivă.
+**Observație:** fără instrucțiuni explicite, LLM-urile tind să "știe" răspunsul și să construiască o justificare retroactivă.
 
-**Implicație:** Procesul de gândire arătat e adesea fabricat, nu autentic.
+**Implicație:** procesul de gândire arătat e adesea fabricat, nu autentic.
 
-**Soluție:** Principiul Continuității Cognitive - instrucțiune explicită că fiecare pas trebuie să se bazeze pe pașii anteriori.
+**Soluție:** Principiul continuității cognitive - instrucțiune explicită că fiecare pas trebuie să se bazeze pe pașii anteriori.
 
-**Aplicare practică:** În orice prompt complex, adaugă:
+**Aplicare practică:** în orice prompt complex, adaugă:
 > "Construiește răspunsul pas cu pas. Fiecare concluzie trebuie să se bazeze exclusiv pe ce ai descoperit în pașii anteriori. Nu pre-calcula răspunsul final."
 
 ---
 
-## Lecția 2: Transparența creează încredere
+## Lecția 2: transparența creează încredere
 
-**Observație:** Când vezi CUM gândește AI-ul, poți evalua dacă răspunsul e de încredere.
+**Observație:** când vezi CUM gândește AI-ul, poți evalua dacă răspunsul e de încredere.
 
-**Implicație:** Un răspuns opac poate fi corect sau halucinat - nu ai cum să știi.
+**Implicație:** un răspuns opac poate fi corect sau halucinat - nu ai cum să știi.
 
-**Soluție:** Raționament vizibil - fiecare iterație e prezentată utilizatorului.
+**Soluție:** raționament vizibil - fiecare iterație e prezentată utilizatorului.
 
-**Aplicare practică:** Cere mereu:
+**Aplicare practică:** cere mereu:
 > "Arată-mi procesul de gândire, pas cu pas, înainte de a da răspunsul final."
 
 ---
 
-## Lecția 3: Dialogul bate monologul
+## Lecția 3: dialogul bate monologul
 
 **Observație:** LLM-urile pot merge în direcția greșită fără să știe. Și tu poți să nu-ți dai seama până la final.
 
-**Implicație:** Răspunsuri lungi generate fără verificare intermediară sunt riscante.
+**Implicație:** răspunsuri lungi generate fără verificare intermediară sunt riscante.
 
-**Soluție:** Puncte de sincronizare - momente în care AI-ul se oprește și întreabă.
+**Soluție:** puncte de sincronizare - momente în care AI-ul se oprește și întreabă.
 
-**Aplicare practică:** Pentru probleme complexe:
+**Aplicare practică:** pentru probleme complexe:
 > "După ce analizezi problema, oprește-te și prezintă-mi 2-3 direcții posibile. Așteaptă să-ți spun pe care să o urmezi."
 
 ---
 
-## Lecția 4: Halucinațiile trebuie prevenite, nu doar detectate
+## Lecția 4: halucinațiile trebuie prevenite, nu doar detectate
 
-**Observație:** E mai ușor să previi halucinațiile decât să le detectezi după.
+**Observație:** e mai ușor să previi halucinațiile decât să le detectezi după.
 
-**Implicație:** Verificarea post-factum e utilă, dar incompletă.
+**Implicație:** verificarea post-factum e utilă, dar incompletă.
 
-**Soluție:** Filtre proactive integrate în workflow-ul de generare.
+**Soluție:** filtre proactive integrate în workflow-ul de generare.
 
 **Aplicare practică:**
 > "Dacă nu ești sigur de un fapt, declară explicit 'Nu sunt sigur de această informație' în loc să inventezi."
 
 ---
 
-## Lecția 5: Structura amplifică calitatea
+## Lecția 5: structura amplifică calitatea
 
-**Observație:** Output-uri nestructurate sunt greu de evaluat și de folosit.
+**Observație:** output-uri nestructurate sunt greu de evaluat și de folosit.
 
-**Implicație:** Formatul contează la fel de mult ca și conținutul.
+**Implicație:** formatul contează la fel de mult ca și conținutul.
 
-**Soluție:** Formate standardizate pentru iterații, rapoarte, soluții.
+**Soluție:** formate standardizate pentru iterații, rapoarte, soluții.
 
-**Aplicare practică:** Specifică mereu formatul:
+**Aplicare practică:** specifică mereu formatul:
 > "Răspunde în format: 1) Problema identificată, 2) Cauza rădăcină, 3) Soluție propusă, 4) Pași de implementare"
 
 ---
@@ -83,53 +83,53 @@ Construirea Mașinilor Metacognitive a relevat insight-uri valoroase despre cum 
 
 ---
 
-## Lecția 7: Iterația bate perfecțiunea
+## Lecția 7: iterația bate perfecțiunea
 
-**Observație:** Nicio versiune nu a fost perfectă din prima. V2.3 e rezultatul a 5+ iterații.
+**Observație:** nicio versiune nu a fost perfectă din prima. V2.3 e rezultatul a 5+ iterații.
 
-**Implicație:** E mai bine să lansezi ceva imperfect și să iterezi decât să aștepți să fie perfect.
+**Implicație:** e mai bine să lansezi ceva imperfect și să iterezi decât să aștepți să fie perfect.
 
-**Soluție:** Ciclu rapid de: Folosește → Observă → Îmbunătățește → Repetă
+**Soluție:** ciclu rapid de: folosește → observă → îmbunătățește → repetă
 
-**Aplicare practică:** Nu încerca să creezi mașina perfectă din prima. Creează V1.0, testeaz-o, îmbunătățește-o.
+**Aplicare practică:** nu încerca să creezi mașina perfectă din prima. Creează V1.0, testeaz-o, îmbunătățește-o.
 
 ---
 
-## Lecția 8: Specificitatea bate generalitatea
+## Lecția 8: specificitatea bate generalitatea
 
-**Observație:** Cu cât instrucțiunile sunt mai specifice, cu atât output-ul e mai bun.
+**Observație:** cu cât instrucțiunile sunt mai specifice, cu atât output-ul e mai bun.
 
 **Implicație:** "Fii mai specific" nu e suficient. Trebuie să arăți CUM să fie specific.
 
-**Soluție:** Exemple, formate, tipuri de raționament enumerate explicit.
+**Soluție:** exemple, formate, tipuri de raționament enumerate explicit.
 
-**Aplicare practică:** În loc de "analizează", spune:
+**Aplicare practică:** în loc de "analizează", spune:
 > "Analizează prin: 1) Descompunere în componente, 2) Identificare cauze, 3) Evaluare impact"
 
 ---
 
 ## Lecția 9: LLM-urile sunt parteneri, nu oracole
 
-**Observație:** Cele mai bune rezultate vin din colaborare, nu din delegare completă.
+**Observație:** cele mai bune rezultate vin din colaborare, nu din delegare completă.
 
 **Implicație:** "Dă-mi răspunsul" e inferior lui "Hai să gândim împreună".
 
-**Soluție:** Design conversațional cu puncte de intervenție.
+**Soluție:** design conversațional cu puncte de intervenție.
 
-**Aplicare practică:** Folosește pronume inclusive:
+**Aplicare practică:** folosește pronume inclusive:
 > "Hai să analizăm această problemă împreună. Tu faci analiza, eu validez direcția."
 
 ---
 
-## Lecția 10: Documentația e pentru tine din viitor
+## Lecția 10: documentația e pentru tine din viitor
 
-**Observație:** Dacă nu documentezi cum funcționează mașina, vei uita.
+**Observație:** dacă nu documentezi cum funcționează mașina, vei uita.
 
-**Implicație:** Mașinile nedocumentate devin inutilizabile în timp.
+**Implicație:** mașinile nedocumentate devin inutilizabile în timp.
 
-**Soluție:** Fiecare mașină are explicații, nu doar codul.
+**Soluție:** fiecare mașină are explicații, nu doar codul.
 
-**Aplicare practică:** Când creezi un prompt complex, adaugă un comentariu:
+**Aplicare practică:** când creezi un prompt complex, adaugă un comentariu:
 ```
 # Acest prompt face X.
 # Folosește-l când Y.
@@ -142,16 +142,16 @@ Construirea Mașinilor Metacognitive a relevat insight-uri valoroase despre cum 
 
 | # | Lecție | Soluție |
 |---|--------|---------|
-| 1 | LLM-urile simulează | Continuitate Cognitivă |
-| 2 | Opacitatea e riscantă | Raționament vizibil |
-| 3 | Monologul duce în eroare | Puncte de sincronizare |
-| 4 | Prevenția bate detecția | Filtre proactive |
-| 5 | Structura amplifică | Formate standardizate |
-| 6 | Meta-cogniția e posibilă | Instrucțiuni de reflecție |
-| 7 | Iterația bate perfecțiunea | Ciclu rapid |
-| 8 | Specificitatea contează | Exemple și formate |
-| 9 | Colaborare, nu delegare | Design conversațional |
-| 10 | Documentează | Explicații integrate |
+| 1 | LLM-urile simulează | continuitate cognitivă |
+| 2 | Opacitatea e riscantă | raționament vizibil |
+| 3 | Monologul duce în eroare | puncte de sincronizare |
+| 4 | Prevenția bate detecția | filtre proactive |
+| 5 | Structura amplifică | formate standardizate |
+| 6 | Meta-cogniția e posibilă | instrucțiuni de reflecție |
+| 7 | Iterația bate perfecțiunea | ciclu rapid |
+| 8 | Specificitatea contează | exemple și formate |
+| 9 | Colaborare, nu delegare | design conversațional |
+| 10 | Documentează | explicații integrate |
 
 ---
 

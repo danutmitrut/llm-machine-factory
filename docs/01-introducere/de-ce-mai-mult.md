@@ -7,7 +7,7 @@ Chiar și cele mai bune prompturi au limitări fundamentale:
 ### 1. Opacitate
 Nu știi **cum** a ajuns LLM-ul la răspuns. A raționat logic? A ghicit? A halucinat?
 
-### 2. Simulare vs. Gândire
+### 2. Simulare vs. gândire
 LLM-urile tind să "pre-calculeze" răspunsul și apoi să inventeze retroactiv o justificare. Pare că gândesc, dar de fapt simulează gândirea.
 
 ### 3. Halucinații nedetectate
@@ -18,21 +18,21 @@ Prompturile clasice sunt cerere → răspuns. Nu există moment în care să cor
 
 ---
 
-## Ce adaugă Mașinile Metacognitive
+## Ce adaugă mașinile metacognitive
 
 ### 1. Transparență totală
 
 ```
-Iterația 3: Explorare Contraintuitivă
-- Întrebare internă: Ce dacă premisa inițială e greșită?
-- Răspuns: Am presupus că clientul vrea creștere rapidă,
+Iterația 3: explorare contraintuitivă
+- Întrebare internă: ce dacă premisa inițială e greșită?
+- Răspuns: am presupus că clientul vrea creștere rapidă,
   dar poate prioritizează stabilitatea...
-- Tip raționament: Invalidare premise
+- Tip raționament: invalidare premise
 ```
 
 Vezi exact **de ce** gândește într-un anumit fel.
 
-### 2. Principiul Continuității Cognitive
+### 2. Principiul continuității cognitive
 
 Instrucțiune explicită care **interzice** simularea:
 
@@ -45,9 +45,9 @@ Asta forțează raționament autentic secvențial.
 Nu adaugi verificarea după - e parte din proces:
 
 ```
-Sub-modul 2.2: Verificare Factuală
-- [Acțiune: Căutare Web]
-- Nevoia de informație: Validare statistică X
+Sub-modul 2.2: verificare factuală
+- [Acțiune: căutare web]
+- Nevoia de informație: validare statistică X
 - Sinteza găsită: [date cu sursă]
 - Verdict: PARȚIAL VERIDIC - cifra e din 2021, nu 2024
 ```
@@ -58,11 +58,11 @@ Dialogul e construit în workflow:
 
 ```
 [PUNCT DE SINCRONIZARE]
-- Sumar progres: Am identificat 3 direcții posibile
+- Sumar progres: am identificat 3 direcții posibile
 - Bifurcație:
-  A) Focus pe tehnologie
-  B) Focus pe psihologie comportamentală
-- Întrebare: Care direcție preferați?
+  A) focus pe tehnologie
+  B) focus pe psihologie comportamentală
+- Întrebare: care direcție preferați?
 ```
 
 Nu mai e monolog - e colaborare.
@@ -71,7 +71,7 @@ Nu mai e monolog - e colaborare.
 
 ## Comparație directă
 
-| Aspect | Prompt clasic | Mașină Metacognitivă |
+| Aspect | Prompt clasic | Mașină metacognitivă |
 |--------|---------------|---------------------|
 | Proces | Invizibil | Documentat pas cu pas |
 | Verificare | Inexistentă | Integrată în workflow |
@@ -84,9 +84,9 @@ Nu mai e monolog - e colaborare.
 
 ## Metafora
 
-**Prompt clasic** = Angajat care îți dă un răspuns și pleacă
+**Prompt clasic** = angajat care îți dă un răspuns și pleacă
 
-**Mașină Metacognitivă** = Consultant care:
+**Mașină metacognitivă** = consultant care:
 - Îți arată cum a analizat problema
 - Te întreabă dacă e pe direcția bună
 - Își verifică propriile afirmații
@@ -101,7 +101,7 @@ Nu mai e monolog - e colaborare.
 - Generare de conținut fără risc
 - Brainstorming inițial
 
-### Folosește Mașini Metacognitive pentru:
+### Folosește mașini metacognitive pentru:
 - Decizii importante
 - Analize complexe
 - Situații unde acuratețea contează

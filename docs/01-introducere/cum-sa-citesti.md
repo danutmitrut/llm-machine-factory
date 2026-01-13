@@ -2,24 +2,24 @@
 
 ## Trei căi prin material
 
-### Calea 1: Vreau să folosesc ACUM (5 minute)
+### Calea 1: vreau să folosesc ACUM (5 minute)
 
-1. Du-te direct la [Mașinile din Fabrică](../03-masinile-din-fabrica/overview.md)
+1. Du-te direct la [Mașinile din fabrică](../03-masinile-din-fabrica/overview.md)
 2. Alege mașina potrivită pentru task-ul tău
 3. Copiază metapromptul
 4. Lipește-l în Claude/GPT
 5. Urmează instrucțiunile
 
 **Mașini disponibile:**
-- [Arhitect de Soluții](../03-masinile-din-fabrica/arhitect-solutii.md) - pentru rezolvat probleme complexe
-- [Auditor de Veridicitate](../03-masinile-din-fabrica/auditor-veridicitate.md) - pentru verificat informații
+- [Arhitect de soluții](../03-masinile-din-fabrica/arhitect-solutii.md) - pentru rezolvat probleme complexe
+- [Auditor de veridicitate](../03-masinile-din-fabrica/auditor-veridicitate.md) - pentru verificat informații
 - [AIM](../02-piesa-centrala-aim/aim-complet.md) - pentru construit mașini noi
 
 ---
 
-### Calea 2: Vreau să înțeleg cum funcționează (30 minute)
+### Calea 2: vreau să înțeleg cum funcționează (30 minute)
 
-1. Citește [Ce sunt Mașinile Metacognitive?](ce-sunt-masinile.md)
+1. Citește [Ce sunt mașinile metacognitive?](ce-sunt-masinile.md)
 2. Citește [De ce sunt mai mult decât prompturi?](de-ce-mai-mult.md)
 3. Explorează [Cum funcționează AIM](../02-piesa-centrala-aim/cum-functioneaza.md)
 4. Vezi [Cum le combini](../03-masinile-din-fabrica/cum-le-combini.md)
@@ -27,19 +27,19 @@
 
 ---
 
-### Calea 3: Vreau povestea completă (1-2 ore)
+### Calea 3: vreau povestea completă (1-2 ore)
 
 1. Începe cu Introducerea (acest capitol)
 2. Parcurge AIM în detaliu
 3. Studiază fiecare mașină din fabrică
-4. Citește [Istoria Proiectului](../04-istoria-proiectului/evolutia.md) - cum s-a construit
-5. Aprofundează cu [Ghidul pentru Avansați](../05-ghid-utilizare/avansati.md)
+4. Citește [Istoria proiectului](../04-istoria-proiectului/evolutia.md) - cum s-a construit
+5. Aprofundează cu [Ghidul pentru avansați](../05-ghid-utilizare/avansati.md)
 
 ---
 
 ## Convenții folosite
 
-### Blocuri de cod = Metaprompturi sau exemple
+### Blocuri de cod = metaprompturi sau exemple
 
 ```
 **[Început Metaprompt]**
@@ -49,13 +49,13 @@ Instrucțiuni pentru AI...
 
 Acestea sunt copy-paste ready.
 
-### Tabele = Comparații
+### Tabele = comparații
 
 | Concept A | Concept B |
 |-----------|-----------|
 | Diferență | Diferență |
 
-### Diagrame text = Fluxuri
+### Diagrame text = fluxuri
 
 ```
 Input → Procesare → Output
@@ -63,7 +63,7 @@ Input → Procesare → Output
       Verificare
 ```
 
-### Emoji-uri = Nu folosim
+### Emoji-uri = nu folosim
 
 Documentația e profesională și clară, fără decorațiuni.
 

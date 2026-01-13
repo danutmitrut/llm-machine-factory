@@ -1,4 +1,4 @@
-# Auditor de Veridicitate V1.0
+# Auditor de veridicitate V1.0
 
 **Verificator anti-halucinație pentru text existent**
 
@@ -24,17 +24,17 @@ Primește un text (o afirmație, un paragraf, un raport) și îl trece printr-un
 
 ## Ce verifică
 
-### 1. Afirmații Factuale
+### 1. Afirmații factuale
 - Date, statistici, nume, evenimente
 - Verificare prin căutare web
 - Verdict: VERIDIC / PARȚIAL VERIDIC / INCERT / FALS
 
-### 2. Construcții Frazeologice
+### 2. Construcții frazeologice
 - Termeni, concepte, expresii
 - Există? Sunt folosite corect?
 - Verdict: VALID / EROANAT / NESTANDARDIZAT
 
-### 3. Concluzii / Deducții
+### 3. Concluzii / deducții
 - Logica e validă?
 - Premisele sunt relevante?
 - Verdict: VALIDĂ / ERONATĂ / INCERTĂ
@@ -44,30 +44,30 @@ Primește un text (o afirmație, un paragraf, un raport) și îl trece printr-un
 ## Format output
 
 ```
-Raportul de Audit al Veridicității
+Raportul de audit al veridicității
 
-Textul Original Auditat: [...]
+Textul original auditat: [...]
 
-Scor General de Risc de Halucinație: 2.3/5
+Scor general de risc de halucinație: 2.3/5
 
-Analiză Detaliată:
+Analiză detaliată:
 
 Unitatea 1: "România are 19 milioane de locuitori"
-- Tip: Factual
+- Tip: factual
 - Verdict: PARȚIAL VERIDIC
-- Justificare: Cifra exactă e ~19.05 mil (2024), sursa INS
+- Justificare: cifra exactă e ~19.05 mil (2024), sursa INS
 - Scor risc: 1/5
 
 Unitatea 2: "Conform teoriei eficienței adaptive..."
-- Tip: Frazeologic
+- Tip: frazeologic
 - Verdict: FABULAȚIE
-- Justificare: Acest termen nu există în literatura de specialitate
-- Sugestie corecție: Eliminați sau reformulați
+- Justificare: acest termen nu există în literatura de specialitate
+- Sugestie corecție: eliminați sau reformulați
 - Scor risc: 5/5
 
 [...]
 
-Recomandări Generale:
+Recomandări generale:
 1. Verificați independent statisticile cheie
 2. Eliminați jargonul ne-verificabil
 ```
@@ -159,7 +159,7 @@ Vei prezenta succesiv rezumatele iterațiilor interne (incluzând acțiunile de 
 
 ---
 
-## Scala de Risc
+## Scala de risc
 
 | Scor | Interpretare | Acțiune recomandată |
 |------|--------------|---------------------|
@@ -174,4 +174,4 @@ Vei prezenta succesiv rezumatele iterațiilor interne (incluzând acțiunile de 
 
 ## Următorul pas
 
-→ [Arhitect Meta-Cognitive](arhitect-meta-cognitive.md) - generează mașini noi rapid
+→ [Arhitect meta-cognitive](arhitect-meta-cognitive.md) - generează mașini noi rapid

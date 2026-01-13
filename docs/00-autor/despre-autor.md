@@ -1,4 +1,4 @@
-# Despre Autor
+# Despre autor
 
 ## Mitruț Dănuț
 
@@ -61,7 +61,7 @@ Am vrut să creez instrumente care:
 - Reduc halucinațiile prin verificare integrată
 - Transformă AI-ul din "oracol opac" în "partener de gândire"
 
-Mașinile Metacognitive sunt rezultatul acestei cercetări - un framework care respectă inteligența utilizatorului și amplifies capacitatea de decizie, nu o înlocuiește.
+Mașinile metacognitive sunt rezultatul acestei cercetări - un framework care respectă inteligența utilizatorului și amplifică capacitatea de decizie, nu o înlocuiește.
 
 ---
 

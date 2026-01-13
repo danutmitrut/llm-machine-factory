@@ -25,21 +25,21 @@ Conversația cheie:
 
 **LLM (folosind V1.0):**
 ```
-Iterația 1: Descompunere
+Iterația 1: descompunere
 Ce face acest metaprompt? Ce probleme ar putea avea?
 
-Iterația 2: Identificare probleme
+Iterația 2: identificare probleme
 Văd că permite "pre-calcularea" soluției...
 
-Iterația 3: Analogie
+Iterația 3: analogie
 Cum rezolvă oamenii această problemă? Prin reflecție...
 
 [...]
 
-Soluție: Adaugă "Principiul Continuității Cognitive"...
+Soluție: adaugă "Principiul continuității cognitive"...
 ```
 
-**Rezultat:** Metapromptul s-a îmbunătățit singur, sugerând exact ce avea nevoie.
+**Rezultat:** metapromptul s-a îmbunătățit singur, sugerând exact ce avea nevoie.
 
 ---
 
@@ -48,16 +48,16 @@ Soluție: Adaugă "Principiul Continuității Cognitive"...
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                                                         │
-│    ┌─────────┐    Analizează    ┌─────────────────┐     │
+│    ┌─────────┐    analizează    ┌─────────────────┐     │
 │    │ Versiune│ ───────────────► │   Identifică    │     │
-│    │ Curentă │                  │   Probleme      │     │
+│    │ curentă │                  │   probleme      │     │
 │    └────┬────┘                  └────────┬────────┘     │
 │         │                                │              │
 │         │                                │              │
 │         │                                ▼              │
 │    ┌────┴────┐                  ┌─────────────────┐     │
 │    │ Versiune│ ◄─────────────── │   Sugerează     │     │
-│    │  Nouă   │    Implementează │   Soluții       │     │
+│    │  nouă   │    implementează │   soluții       │     │
 │    └─────────┘                  └─────────────────┘     │
 │                                                         │
 └─────────────────────────────────────────────────────────┘
@@ -70,24 +70,24 @@ Acest ciclu s-a repetat de ~5 ori până la V2.3.
 ## Ce a ieșit din fiecare ciclu
 
 ### Ciclu 1: V1.0 → V2.0
-**Problemă detectată:** Output nestructurat, greu de urmărit
-**Soluție generată:** Format standardizat pentru iterații
+**Problemă detectată:** output nestructurat, greu de urmărit
+**Soluție generată:** format standardizat pentru iterații
 
 ### Ciclu 2: V2.0 → V2.1
 **Problemă detectată:** "Pare că știe răspunsul dinainte"
-**Soluție generată:** Principiul Continuității Cognitive
+**Soluție generată:** Principiul continuității cognitive
 
 ### Ciclu 3: V2.1 → V2.2
 **Problemă detectată:** "Nu știu dacă merge în direcția bună"
-**Soluție generată:** Punct de Sincronizare
+**Soluție generată:** punct de sincronizare
 
 ### Ciclu 4: V2.2 → V2.3
 **Problemă detectată:** "Inventează fapte când nu știe"
-**Soluție generată:** Integrare Căutare Web
+**Soluție generată:** integrare căutare web
 
 ### Ciclu 5: V2.3 → AIM
 **Problemă detectată:** "Vreau să creez mașini noi ușor"
-**Soluție generată:** Meta-mașină care generează mașini
+**Soluție generată:** meta-mașină care generează mașini
 
 ---
 
@@ -130,7 +130,7 @@ Prompt pentru auto-analiză:
 ```
 Analizează acest metaprompt: [lipești metapromptul]
 
-Problema observată: Mașina inventează statistici în loc să declare
+Problema observată: mașina inventează statistici în loc să declare
 că nu știe sau să ceară surse.
 
 Întrebări:

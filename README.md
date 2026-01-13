@@ -1,6 +1,6 @@
 # LLM Machine Factory
 
-**Mașini Metacognitive pentru Augmentarea Raționamentului AI**
+**Mașini metacognitive pentru augmentarea raționamentului AI**
 
 ---
 
@@ -16,9 +16,9 @@ Nu sunt prompturi obișnuite. Sunt **mașinării cognitive** - sisteme de instru
 
 ---
 
-## De ce "Mașini", nu "Prompturi"?
+## De ce "mașini", nu "prompturi"?
 
-| Prompt clasic | Mașină Metacognitivă |
+| Prompt clasic | Mașină metacognitivă |
 |---------------|---------------------|
 | Cerere → Răspuns | Cerere → Raționament vizibil → Validare → Răspuns |
 | Output opac | Proces transparent |
@@ -30,44 +30,44 @@ Nu sunt prompturi obișnuite. Sunt **mașinării cognitive** - sisteme de instru
 
 ## Ce conține acest pachet?
 
-### Mașina Centrală
-- **AIM (Arhitectul Inteligent de Metaprompturi)** - Fabrica care construiește alte mașini prin co-creare cu utilizatorul
+### Mașina centrală
+- **AIM (Arhitectul Inteligent de Metaprompturi)** - fabrica care construiește alte mașini prin co-creare cu utilizatorul
 
-### Mașinile din Fabrică
-- **Arhitect de Soluții V2.3** - Motorul principal de raționament profund
-- **Auditor de Veridicitate V1.0** - Verificator anti-halucinație pentru text existent
-- **Arhitect Meta-Cognitive V1.0** - Generator automat de mașini (fără co-creare)
+### Mașinile din fabrică
+- **Arhitect de soluții V2.3** - motorul principal de raționament profund
+- **Auditor de veridicitate V1.0** - verificator anti-halucinație pentru text existent
+- **Arhitect meta-cognitive V1.0** - generator automat de mașini (fără co-creare)
 
-### Documentație Completă
+### Documentație completă
 - Ghid de utilizare pentru începători și avansați
 - Istoria proiectului (cum s-a construit)
 - Exemple și studii de caz
 
 ---
 
-## Conceptele Cheie
+## Conceptele cheie
 
-### 1. Principiul Continuității Cognitive
+### 1. Principiul continuității cognitive
 Fiecare iterație se construiește **exclusiv** pe baza concluziilor anterioare. Este interzisă "pre-calcularea" soluției și justificarea retroactivă. Gândirea e construcție, nu simulare.
 
-### 2. Punctele de Sincronizare
+### 2. Punctele de sincronizare
 Momente în proces unde mașina se oprește și întreabă utilizatorul. Transformă monologul în dialog de co-creare.
 
-### 3. Raționament Vizibil
+### 3. Raționament vizibil
 Utilizatorul vede fiecare iterație de gândire - nu doar rezultatul final. Educă și construiește încredere.
 
-### 4. Verificare Integrată
+### 4. Verificare integrată
 Filtre anti-halucinație incluse în workflow, nu adăugate ulterior.
 
 ---
 
-## Quick Start
+## Quick start
 
 ### Vrei să rezolvi o problemă complexă?
-→ Folosește [Arhitectul de Soluții V2.3](docs/03-masinile-din-fabrica/arhitect-solutii.md)
+→ Folosește [Arhitectul de soluții V2.3](docs/03-masinile-din-fabrica/arhitect-solutii.md)
 
 ### Vrei să verifici un text pentru halucinații?
-→ Folosește [Auditorul de Veridicitate](docs/03-masinile-din-fabrica/auditor-veridicitate.md)
+→ Folosește [Auditorul de veridicitate](docs/03-masinile-din-fabrica/auditor-veridicitate.md)
 
 ### Vrei să construiești o mașină nouă?
 → Folosește [AIM - Arhitectul Inteligent de Metaprompturi](docs/02-piesa-centrala-aim/aim-complet.md)
@@ -91,14 +91,14 @@ Acest framework a evoluat organic, printr-un proces de **auto-îmbunătățire**
 3. Am iterat până la V2.3
 4. Am extras mașinile specializate
 
-Întreaga poveste e documentată în [Istoria Proiectului](docs/04-istoria-proiectului/evolutia.md).
+Întreaga poveste e documentată în [Istoria proiectului](docs/04-istoria-proiectului/evolutia.md).
 
 ---
 
 ## Actualizări
 
-Ultima actualizare: Ianuarie 2025
+Ultima actualizare: ianuarie 2025
 
 ---
 
-**Creat de Dan Mitrut** | Cercetare în Inginerie AI și Mașini Metacognitive
+**Creat de Dan Mitrut** | Cercetare în inginerie AI și mașini metacognitive

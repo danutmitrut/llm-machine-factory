@@ -1,4 +1,4 @@
-# Arhitect de Soluții V2.3
+# Arhitect de soluții V2.3
 
 **Motorul principal de raționament profund**
 
@@ -24,34 +24,34 @@ Primește o problemă complexă și o procesează prin **5-15 iterații de rați
 
 ## Caracteristici cheie
 
-### 1. Principiul Continuității Cognitive
+### 1. Principiul continuității cognitive
 Fiecare iterație se construiește pe cele anterioare. Nu există "sărire" la concluzie.
 
 ### 2. Raționament vizibil
 Vezi fiecare pas:
 ```
 Iterația 3: Explorare Contraintuitivă
-- Întrebare internă: Ce dacă facem opusul?
-- Concluzie: Interesant - ar putea funcționa în contextul X
-- Tip raționament: Explorare Contraintuitivă
+- Întrebare internă: ce dacă facem opusul?
+- Concluzie: interesant - ar putea funcționa în contextul X
+- Tip raționament: explorare contraintuitivă
 ```
 
 ### 3. Căutare web integrată
 Când e nevoie de date reale:
 ```
-[Acțiune: Căutare Web]
-- Nevoia de informație: Statistici piață SaaS România 2024
+[Acțiune: căutare web]
+- Nevoia de informație: statistici piață SaaS România 2024
 - Termeni căutare: "SaaS market Romania 2024 statistics"
-- Sinteza găsită: Piața a crescut cu 23%... [sursă]
+- Sinteza găsită: piața a crescut cu 23%... [sursă]
 ```
 
 ### 4. Punct de sincronizare
 La jumătatea procesului, se oprește și întreabă:
 ```
 [PUNCT DE SINCRONIZARE]
-- Sumar: Am descoperit X, Y, Z
-- Bifurcație: Pot merge pe direcția A sau B
-- Întrebare: Care preferați?
+- Sumar: am descoperit X, Y, Z
+- Bifurcație: pot merge pe direcția A sau B
+- Întrebare: care preferați?
 ```
 
 ---
@@ -148,28 +148,28 @@ Vei prezenta succesiv rezumatele iterațiilor interne (conform formatului specif
 **Output (rezumat):**
 
 ```
-Iterația 1: Descompunere Fundamentală
+Iterația 1: descompunere fundamentală
 Ce înseamnă "conversie"? Ce face vizitatorul acum vs. ce vrem să facă?
-→ Concluzie: Trebuie să înțeleg pâlnia completă
+→ Concluzie: trebuie să înțeleg pâlnia completă
 
-Iterația 2: Identificare Constrângeri
+Iterația 2: identificare constrângeri
 Ce nu știu? Industrie, audiență, ofertă actuală?
-→ Concluzie: Am nevoie de context specific
+→ Concluzie: am nevoie de context specific
 
 [PUNCT DE SINCRONIZARE]
-Întrebare: În ce industrie ești? Ce oferi pe landing page?
+Întrebare: în ce industrie ești? Ce oferi pe landing page?
 
 [...după răspuns...]
 
-Iterația 5: Analogie Inter-Domenii
+Iterația 5: analogie inter-domenii
 Cum rezolvă e-commerce-ul problema? Cum rezolvă SaaS?
-→ Concluzie: Principiul urgency + social proof funcționează cross-industry
+→ Concluzie: principiul urgency + social proof funcționează cross-industry
 
-Iterația 8: Sinteză Creativă
+Iterația 8: sinteză creativă
 Combină: urgency + testimoniale video + garantie inversă
 → Concluzie: "Garantie de dublu banii înapoi" - contraintuitiv dar puternic
 
-Soluție Finală:
+Soluție finală:
 1. [Recomandare specifică cu justificare]
 2. [Recomandare specifică cu justificare]
 3. [Recomandare specifică cu justificare]
@@ -181,4 +181,4 @@ Soluție Finală:
 
 ## Următorul pas
 
-→ [Auditor de Veridicitate](auditor-veridicitate.md) - verifică soluția pentru halucinații
+→ [Auditor de veridicitate](auditor-veridicitate.md) - verifică soluția pentru halucinații

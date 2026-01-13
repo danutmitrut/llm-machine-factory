@@ -1,6 +1,6 @@
 # Integrare în asistenți și agenți
 
-Cum să folosești Mașinile Metacognitive în tools, asistenți custom și agenți AI.
+Cum să folosești mașinile metacognitive în tools, asistenți custom și agenți AI.
 
 ---
 
@@ -59,7 +59,7 @@ a mă asigura că sunt pe direcția corectă.
 
 ---
 
-## API Integration
+## API integration
 
 ### OpenAI API
 
@@ -77,8 +77,8 @@ response = openai.ChatCompletion.create(
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": "Problema mea este: ..."}
     ],
-    temperature=0.7,  # Balanță creativitate/consistență
-    max_tokens=4000   # Suficient pentru iterații
+    temperature=0.7,  # balanță creativitate/consistență
+    max_tokens=4000   # suficient pentru iterații
 )
 ```
 
@@ -115,7 +115,7 @@ from langchain.chat_models import ChatOpenAI
 
 # Mașina ca tool
 masina_solutii = Tool(
-    name="Arhitect Solutii",
+    name="Arhitect solutii",
     description="Folosește pentru probleme complexe care necesită raționament profund",
     func=lambda x: run_masina(x, METAPROMPT_ARHITECT)
 )
@@ -135,15 +135,15 @@ agent = initialize_agent(
 │                        AGENT                                │
 ├─────────────────────────────────────────────────────────────┤
 │  1. Primește task de la user                                │
-│  2. Decide: E simplu sau complex?                           │
+│  2. Decide: e simplu sau complex?                           │
 │     │                                                       │
-│     ├─ Simplu → Răspunde direct                            │
+│     ├─ Simplu → răspunde direct                            │
 │     │                                                       │
-│     └─ Complex → Invocă Mașina Metacognitivă               │
+│     └─ Complex → invocă mașina metacognitivă               │
 │                 │                                           │
-│                 ├─ Arhitect Soluții (rezolvare)            │
+│                 ├─ Arhitect soluții (rezolvare)            │
 │                 │                                           │
-│                 └─ Auditor (verificare)                    │
+│                 └─ auditor (verificare)                    │
 │                                                             │
 │  3. Returnează rezultat verificat                           │
 └─────────────────────────────────────────────────────────────┘
@@ -172,8 +172,8 @@ agent = initialize_agent(
 
 Similar cu Make, dar cu noduri native pentru OpenAI:
 - Node: OpenAI Chat
-- System Prompt: [Metapromptul]
-- User Message: [Variabilă din trigger]
+- System Prompt: [metapromptul]
+- User Message: [variabilă din trigger]
 
 ---
 
@@ -186,28 +186,28 @@ Mașinile consumă mai mulți tokeni decât prompturi simple:
 - Output: ~2000-4000 tokeni (iterații + soluție)
 
 **Optimizare:**
-- Folosește versiuni "lite" pentru cazuri simple
-- Cache-uiește metapromptul dacă API-ul permite
+- folosește versiuni "lite" pentru cazuri simple
+- cache-uiește metapromptul dacă API-ul permite
 
 ### Rate limiting
 
 Iterațiile pot dura 30-60 secunde pentru probleme complexe.
-- Setează timeout-uri adecvate
-- Implementează retry logic
+- setează timeout-uri adecvate
+- implementează retry logic
 
 ### Cost estimation
 
-Per request cu Mașină Metacognitivă:
+Per request cu mașină metacognitivă:
 - GPT-4: ~$0.15-0.30
 - Claude Opus: ~$0.20-0.40
 - GPT-3.5/Claude Haiku: ~$0.01-0.03 (dar calitate inferioară)
 
 ---
 
-## Template: System Prompt pentru Asistent
+## Template: system prompt pentru asistent
 
 ```
-# Asistent cu Mașini Metacognitive
+# Asistent cu mașini metacognitive
 
 Tu ești un asistent inteligent care folosește tehnici avansate
 de raționament pentru a oferi răspunsuri de calitate superioară.
@@ -215,14 +215,14 @@ de raționament pentru a oferi răspunsuri de calitate superioară.
 ## Cum funcționezi
 
 1. Pentru întrebări SIMPLE (definiții, informații factuale):
-   - Răspunde direct și concis
-   - Nu folosi procesul iterativ
+   - răspunde direct și concis
+   - nu folosi procesul iterativ
 
 2. Pentru probleme COMPLEXE (decizii, analize, strategii):
-   - Folosește procesul de raționament iterativ
-   - Arată-mi gândirea pas cu pas
-   - Include punct de sincronizare dacă sunt bifurcații
-   - Verifică afirmațiile cheie
+   - folosește procesul de raționament iterativ
+   - arată-mi gândirea pas cu pas
+   - include punct de sincronizare dacă sunt bifurcații
+   - verifică afirmațiile cheie
 
 ## Proces pentru probleme complexe
 
@@ -230,10 +230,10 @@ de raționament pentru a oferi răspunsuri de calitate superioară.
 
 ## Cum să mă adresezi
 
-- Fii profesional dar prietenos
-- Explică jargonul când îl folosești
-- Oferă exemple concrete
-- Declară explicit incertitudinile
+- fii profesional dar prietenos
+- explică jargonul când îl folosești
+- oferă exemple concrete
+- declară explicit incertitudinile
 ```
 
 ---

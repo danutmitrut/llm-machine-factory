@@ -1,4 +1,4 @@
-# AIM - Mașina Completă
+# AIM - mașina completă
 
 Copiază tot ce e între `[Început Metaprompt]` și `[Sfârșit Metaprompt]` și lipește în Claude sau GPT.
 

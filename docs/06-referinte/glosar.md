@@ -6,7 +6,7 @@ Termenii cheie folosiți în acest pachet.
 
 ## A
 
-### AIM (Arhitectul Inteligent de Metaprompturi)
+### AIM (Arhitectul inteligent de metaprompturi)
 Mașina centrală din acest pachet. Generează alte mașini LLM prin dialog ghidat cu utilizatorul. Include 3 puncte de sincronizare pentru control maxim.
 
 ### Anti-halucinație
@@ -30,9 +30,9 @@ Proces prin care un sistem se îmbunătățește singur. În acest context: maș
 ## C
 
 ### Chain of Thought (CoT)
-Tehnică de prompting unde LLM-ul este instruit să-și arate pașii de raționament. Baza teoretică pentru Mașinile Metacognitive.
+Tehnică de prompting unde LLM-ul este instruit să-și arate pașii de raționament. Baza teoretică pentru mașinile metacognitive.
 
-### Continuitate cognitivă (Principiu)
+### Continuitate cognitivă (principiu)
 Regula fundamentală că fiecare pas de raționament se bazează EXCLUSIV pe pașii anteriori. Previne pre-calcularea răspunsului și justificarea retroactivă.
 
 ### Co-creare
@@ -71,13 +71,13 @@ Un ciclu complet de întrebare internă → răspuns → concluzie în procesul 
 ## L
 
 ### LLM (Large Language Model)
-Model de limbaj de mari dimensiuni (ex: GPT-4, Claude). Baza pe care rulează Mașinile Metacognitive.
+Model de limbaj de mari dimensiuni (ex: GPT-4, Claude). Baza pe care rulează mașinile metacognitive.
 
 ---
 
 ## M
 
-### Mașină LLM / Mașină Metacognitivă
+### Mașină LLM / mașină metacognitivă
 Termen informal pentru un metaprompt complex care transformă un LLM într-un sistem de raționament structurat cu capabilități specifice.
 
 ### Meta-cogniție
@@ -94,7 +94,7 @@ Un prompt de nivel superior care definește cum să funcționeze un LLM pentru o
 Moment predefinit în workflow unde procesul se oprește și AI-ul cere input de la utilizator. Transformă monologul în dialog.
 
 ### Pre-calculare
-Anti-pattern: când LLM-ul "știe" răspunsul dinainte și fabrică o justificare retroactivă. Prevenit prin Principiul Continuității Cognitive.
+Anti-pattern: când LLM-ul "știe" răspunsul dinainte și fabrică o justificare retroactivă. Prevenit prin principiul continuității cognitive.
 
 ---
 
@@ -133,7 +133,7 @@ Verificarea consistenței logice a unei afirmații fără surse externe. "Are se
 Verificarea unei afirmații prin căutare web sau cerere de dovezi. "Există dovezi?"
 
 ### Veridicitate
-Gradul în care o afirmație corespunde realității. Măsurată prin Auditorul de Veridicitate.
+Gradul în care o afirmație corespunde realității. Măsurată prin Auditorul de veridicitate.
 
 ---
 

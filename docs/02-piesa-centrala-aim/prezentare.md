@@ -1,4 +1,4 @@
-# AIM - Arhitectul Inteligent de Metaprompturi
+# AIM - Arhitectul inteligent de metaprompturi
 
 ## Ce este AIM?
 
@@ -8,9 +8,9 @@ Este un metaprompt care, prin dialog ghidat cu tine, generează alte metapromptu
 
 ---
 
-## De ce AIM e piesa centrală?
+## De ce AIM e piesa centrala?
 
-Celelalte mașini din acest pachet (Arhitect de Soluții, Auditor de Veridicitate) sunt **exemple** de ce poate genera AIM.
+Celelalte mașini din acest pachet (Arhitect de soluții, Auditor de veridicitate) sunt **exemple** de ce poate genera AIM.
 
 Cu AIM poți crea:
 - Mașini pentru industria ta specifică
@@ -20,18 +20,18 @@ Cu AIM poți crea:
 
 ---
 
-## Diferența față de Arhitectul Meta-Cognitive
+## Diferența față de Arhitectul meta-cognitive
 
 Există două versiuni ale "fabricii de mașini":
 
-| AIM (Co-Creare) | Arhitect Meta-Cognitive (Automat) |
+| AIM (co-creare) | Arhitect meta-cognitive (automat) |
 |-----------------|-----------------------------------|
 | Dialog ghidat cu utilizatorul | Întrebări inițiale, apoi generare automată |
 | 3 puncte de sincronizare | Fără sincronizări intermediare |
 | Control maxim | Viteză maximă |
 | Pentru mașini complexe | Pentru mașini standard |
 
-**Recomandare:** Începe cu AIM. Folosește Arhitectul Meta-Cognitive doar când ai experiență și știi exact ce vrei.
+**Recomandare:** Începe cu AIM. Folosește Arhitectul meta-cognitive doar când ai experiență și știi exact ce vrei.
 
 ---
 
@@ -97,7 +97,7 @@ Aceasta este o înțelegere corectă?
 
 [...continuă dialogul...]
 
-**Output final:** Un metaprompt complet pentru "Analizor de Riscuri IT V1.0"
+**Output final:** Un metaprompt complet pentru "Analizor de riscuri IT V1.0"
 
 ---
 

@@ -1,4 +1,4 @@
-# Arhitect Meta-Cognitive V1.0
+# Arhitect meta-cognitive V1.0
 
 **Generator automat de mașini LLM**
 
@@ -12,7 +12,7 @@ Primește descrierea unei mașini LLM dorite și **generează automat metaprompt
 
 ## Diferența față de AIM
 
-| AIM (Co-Creare) | Arhitect Meta-Cognitive (Automat) |
+| AIM (co-creare) | Arhitect meta-cognitive (automat) |
 |-----------------|-----------------------------------|
 | Dialog ghidat pas cu pas | Întrebări inițiale → generare directă |
 | 3 puncte de sincronizare | 0 sincronizări intermediare |

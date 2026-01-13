@@ -1,6 +1,6 @@
 # Ghid pentru începători
 
-Primii pași cu Mașinile Metacognitive.
+Primii pași cu mașinile metacognitive.
 
 ---
 
@@ -18,18 +18,18 @@ Primii pași cu Mașinile Metacognitive.
 
 ---
 
-## Primul tău test: Arhitect de Soluții
+## Primul tău test: Arhitect de soluții
 
-### Pasul 1: Copiază mașina
-Du-te la [Arhitect de Soluții V2.3](../03-masinile-din-fabrica/arhitect-solutii.md) și copiază tot textul dintre `[Început Metaprompt]` și `[Sfârșit Metaprompt]`.
+### Pasul 1: copiază mașina
+Du-te la [Arhitect de soluții V2.3](../03-masinile-din-fabrica/arhitect-solutii.md) și copiază tot textul dintre `[Început Metaprompt]` și `[Sfârșit Metaprompt]`.
 
-### Pasul 2: Deschide Claude sau ChatGPT
+### Pasul 2: deschide Claude sau ChatGPT
 Folosește interfața web sau aplicația.
 
-### Pasul 3: Lipește metapromptul
+### Pasul 3: lipește metapromptul
 Ca primul mesaj în conversație, lipește tot textul copiat.
 
-### Pasul 4: Introdu problema ta
+### Pasul 4: introdu problema ta
 Când AI-ul te întreabă "te rog să introduci problema", scrie problema ta.
 
 **Exemple de probleme bune pentru început:**
@@ -37,34 +37,34 @@ Când AI-ul te întreabă "te rog să introduci problema", scrie problema ta.
 - "Ar trebui să-mi schimb cariera din X în Y?"
 - "Cum să automatizez [proces specific] în afacerea mea?"
 
-### Pasul 5: Urmărește procesul
+### Pasul 5: urmărește procesul
 Vei vedea iterațiile de gândire - fiecare cu întrebare, răspuns, tip de raționament.
 
-### Pasul 6: Răspunde la sincronizare
+### Pasul 6: răspunde la sincronizare
 Când apare `[PUNCT DE SINCRONIZARE]`, AI-ul te întreabă ce direcție preferați. Răspunde și continuă.
 
-### Pasul 7: Primește soluția
+### Pasul 7: primește soluția
 La final, vei avea o soluție structurată, cu justificare pentru fiecare recomandare.
 
 ---
 
-## Al doilea test: Auditor de Veridicitate
+## Al doilea test: Auditor de veridicitate
 
 Acum că ai o soluție, hai s-o verificăm.
 
-### Pasul 1: Copiază soluția
+### Pasul 1: copiază soluția
 Din conversația anterioară, copiază soluția finală generată.
 
-### Pasul 2: Deschide o conversație nouă
+### Pasul 2: deschide o conversație nouă
 Important: conversație nouă, nu continuare.
 
-### Pasul 3: Lipește Auditorul
-Copiază metapromptul de la [Auditor de Veridicitate](../03-masinile-din-fabrica/auditor-veridicitate.md) și lipește-l.
+### Pasul 3: lipește Auditorul
+Copiază metapromptul de la [Auditor de veridicitate](../03-masinile-din-fabrica/auditor-veridicitate.md) și lipește-l.
 
-### Pasul 4: Trimite soluția de verificat
+### Pasul 4: trimite soluția de verificat
 Când AI-ul cere textul de auditat, lipește soluția.
 
-### Pasul 5: Analizează raportul
+### Pasul 5: analizează raportul
 Vei primi:
 - Scor general de risc (0-5)
 - Verdict pentru fiecare afirmație
@@ -95,29 +95,29 @@ Dacă AI-ul spune "Nu am suficiente informații despre X", oferă-i informațiil
 
 | Situație | Mașină |
 |----------|--------|
-| Am o problemă complexă de rezolvat | Arhitect de Soluții |
-| Am un text și vreau să-l verific | Auditor de Veridicitate |
+| Am o problemă complexă de rezolvat | Arhitect de soluții |
+| Am un text și vreau să-l verific | Auditor de veridicitate |
 | Vreau să construiesc propria mașină | AIM |
-| Am folosit AI și nu sunt sigur de răspuns | Auditor de Veridicitate |
-| Am nevoie de analiză profundă | Arhitect de Soluții |
+| Am folosit AI și nu sunt sigur de răspuns | Auditor de veridicitate |
+| Am nevoie de analiză profundă | Arhitect de soluții |
 
 ---
 
 ## Exerciții practice
 
-### Exercițiul 1: Prima problemă
-Folosește Arhitectul de Soluții pentru:
+### Exercițiul 1: prima problemă
+Folosește Arhitectul de soluții pentru:
 > "Care sunt cele mai importante 3 lucruri pe care ar trebui să le fac pentru a-mi îmbunătăți productivitatea?"
 
 Observă cum gândește, cum ajunge la concluzii.
 
-### Exercițiul 2: Verificare
+### Exercițiul 2: verificare
 Ia răspunsul de la Exercițiul 1 și verifică-l cu Auditorul.
 Ce scor a primit? Ce trebuie verificat?
 
-### Exercițiul 3: Problemă din domeniul tău
+### Exercițiul 3: problemă din domeniul tău
 Alege o problemă reală din munca sau viața ta.
-Folosește Arhitectul de Soluții.
+Folosește Arhitectul de soluții.
 Compară răspunsul cu ce ai fi primit de la un prompt simplu.
 
 ---

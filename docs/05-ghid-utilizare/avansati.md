@@ -6,7 +6,7 @@ Personalizare, optimizare și tehnici avansate.
 
 ## Personalizarea mașinilor
 
-### Modificare: Număr de iterații
+### Modificare: număr de iterații
 
 **Default:** 5-15 iterații
 
@@ -20,26 +20,26 @@ Generare Iterativă de Raționament Intern (3-7 iterații)
 Generare Iterativă de Raționament Intern (10-20 iterații)
 ```
 
-### Modificare: Tipuri de raționament
+### Modificare: tipuri de raționament
 
 **Adaugă un tip nou:**
 ```
-* Raționament Bayesian: Actualizează probabilitățile pe baza
+* Raționament bayesian: actualizează probabilitățile pe baza
   dovezilor noi. Care e probabilitatea acum vs. înainte?
 ```
 
 **Elimină un tip** (dacă nu e relevant pentru domeniu):
 Șterge secțiunea corespunzătoare din workflow.
 
-### Modificare: Ton și stil
+### Modificare: ton și stil
 
 **Adaugă la sfârșitul instrucțiunilor:**
 ```
-**Constrângeri de Stil:**
-- Ton: Profesional dar accesibil
-- Evită: Jargon tehnic ne-explicat
+**Constrângeri de stil:**
+- Ton: profesional dar accesibil
+- Evită: jargon tehnic ne-explicat
 - Lungime maximă: 1500 cuvinte
-- Limbă: Română, fără anglicisme inutile
+- Limbă: română, fără anglicisme inutile
 ```
 
 ---
@@ -59,7 +59,7 @@ să [MISIUNE]. Vei face acest lucru prin [METODĂ].
 
 **Obiectivul Suprem:** [CE TREBUIE SĂ PRODUCĂ]
 
-**Principiul Continuității Cognitive:** [INCLUDE MEREU]
+**Principiul continuității cognitive:** [INCLUDE MEREU]
 
 **Workflow Detaliat:**
 1. **Receptare:** [CUM PRIMEȘTE INPUT]
@@ -72,46 +72,46 @@ să [MISIUNE]. Vei face acest lucru prin [METODĂ].
 **[Sfârșit Metaprompt - [NUME] V1.0]**
 ```
 
-### Exemplu: Mașină de Analiză Competitivă
+### Exemplu: mașină de analiză competitivă
 
 ```
-**[Început Metaprompt - Analizor Competitiv V1.0]**
+**[Început Metaprompt - Analizor competitiv V1.0]**
 
 **Instrucțiuni pentru AI (Tu):**
-Ești un Analist Competitiv, specializat în evaluarea poziției
+Ești un analist competitiv, specializat în evaluarea poziției
 de piață a companiilor. Misiunea ta este să identifici avantaje
 competitive, vulnerabilități și oportunități strategice.
 
-**Obiectivul Suprem:** Generarea unui raport de analiză competitivă
+**Obiectivul suprem:** generarea unui raport de analiză competitivă
 acționabil, cu recomandări concrete.
 
-**Principiul Continuității Cognitive:** Fiecare concluzie se
+**Principiul continuității cognitive:** fiecare concluzie se
 bazează exclusiv pe datele analizate anterior. Nu presupune.
 
-**Workflow Detaliat:**
+**Workflow detaliat:**
 
-1. **Receptare Input:**
-   Primești: Numele companiei + industria + 2-3 competitori principali
+1. **Receptare input:**
+   Primești: numele companiei + industria + 2-3 competitori principali
 
-2. **Analiză Iterativă (7-10 iterații):**
-   - Iterația 1-2: Identificare propunere de valoare
-   - Iterația 3-4: Analiză puncte forte/slabe vs. competitori
-   - Iterația 5-6: Identificare tendințe de piață
-   - Iterația 7-8: Sinteză oportunități și amenințări
-   - Iterația 9-10: Formulare recomandări
+2. **Analiză iterativă (7-10 iterații):**
+   - Iterația 1-2: identificare propunere de valoare
+   - Iterația 3-4: analiză puncte forte/slabe vs. competitori
+   - Iterația 5-6: identificare tendințe de piață
+   - Iterația 7-8: sinteză oportunități și amenințări
+   - Iterația 9-10: formulare recomandări
 
 3. **Verificare:**
-   [Acțiune: Căutare Web] pentru validarea informațiilor cheie
+   [Acțiune: căutare web] pentru validarea informațiilor cheie
 
-4. **Output:** Raport structurat cu secțiuni clare
+4. **Output:** raport structurat cu secțiuni clare
 
-**Formatul Output-ului Final:**
-- Executive Summary (3 bullet points)
-- Analiză Detaliată (tabel comparativ)
-- Recomandări Strategice (5 acțiuni prioritizate)
-- Riscuri și Limitări
+**Formatul output-ului final:**
+- Executive summary (3 bullet points)
+- Analiză detaliată (tabel comparativ)
+- Recomandări strategice (5 acțiuni prioritizate)
+- Riscuri și limitări
 
-**[Sfârșit Metaprompt - Analizor Competitiv V1.0]**
+**[Sfârșit Metaprompt - Analizor competitiv V1.0]**
 ```
 
 ---
@@ -122,7 +122,7 @@ bazează exclusiv pe datele analizate anterior. Nu presupune.
 
 **Adaugă instrucțiuni explicite:**
 ```
-**Reguli Anti-Halucinație:**
+**Reguli anti-halucinație:**
 1. Dacă nu știi un fapt, spune "Nu am informații despre..."
 2. Statisticile necesită sursă - dacă nu ai sursă, nu cita statistici
 3. Prefixează incertitudinile cu "Probabil..." sau "Posibil..."
@@ -133,7 +133,7 @@ bazează exclusiv pe datele analizate anterior. Nu presupune.
 
 **Adaugă context de domeniu:**
 ```
-**Context de Domeniu:**
+**Context de domeniu:**
 Această mașină e destinată pentru [INDUSTRIE/DOMENIU].
 Termeni specifici: [GLOSAR SCURT]
 Presupuneri valide în acest context: [LISTA]
@@ -143,7 +143,7 @@ Presupuneri valide în acest context: [LISTA]
 
 **Pentru răspunsuri mai rapide:**
 ```
-**Optimizare Viteză:**
+**Optimizare viteză:**
 - Iterații compacte (2-3 propoziții per iterație)
 - Grupează iterațiile conexe
 - Sări punctul de sincronizare pentru probleme clare
@@ -153,40 +153,40 @@ Presupuneri valide în acest context: [LISTA]
 
 ## Debugging mașini
 
-### Problema: Output prea generic
+### Problema: output prea generic
 
-**Cauză probabilă:** Instrucțiuni insuficient de specifice
+**Cauză probabilă:** instrucțiuni insuficient de specifice
 
-**Soluție:** Adaugă exemple concrete:
+**Soluție:** adaugă exemple concrete:
 ```
-**Exemplu de Output Bun:**
+**Exemplu de output bun:**
 [Include un exemplu real de cum ar trebui să arate]
 ```
 
-### Problema: Se blochează / răspunsuri incomplete
+### Problema: se blochează / răspunsuri incomplete
 
-**Cauză probabilă:** Prea multe instrucțiuni conflictuale
+**Cauză probabilă:** prea multe instrucțiuni conflictuale
 
-**Soluție:** Simplifică - elimină instrucțiunile redundante
+**Soluție:** simplifică - elimină instrucțiunile redundante
 
-### Problema: Ignoră punctul de sincronizare
+### Problema: ignoră punctul de sincronizare
 
-**Cauză probabilă:** Nu e suficient de explicit
+**Cauză probabilă:** nu e suficient de explicit
 
-**Soluție:** Adaugă:
+**Soluție:** adaugă:
 ```
 **OBLIGATORIU:** Te vei OPRI la punctul de sincronizare și
 vei AȘTEPTA răspunsul utilizatorului înainte de a continua.
 Nu genera nimic după sincronizare până nu primești input.
 ```
 
-### Problema: Halucinează în ciuda filtrelor
+### Problema: halucinează în ciuda filtrelor
 
 **Cauză probabilă:** LLM-ul nu are acces la căutare web
 
-**Soluție:** Dacă folosești un LLM fără web access, modifică:
+**Soluție:** dacă folosești un LLM fără web access, modifică:
 ```
-În loc de [Acțiune: Căutare Web], declară:
+În loc de [Acțiune: căutare web], declară:
 "Nu pot verifica această informație. Recomand verificare
 independentă pentru: [lista elementelor de verificat]"
 ```
@@ -198,9 +198,9 @@ independentă pentru: [lista elementelor de verificat]"
 ### Convenție de versionare
 
 ```
-V1.0 - Prima versiune funcțională
-V1.1 - Bug fix / ajustare minoră
-V2.0 - Schimbare majoră de funcționalitate
+V1.0 - prima versiune funcțională
+V1.1 - bug fix / ajustare minoră
+V2.0 - schimbare majoră de funcționalitate
 ```
 
 ### Documentează schimbările

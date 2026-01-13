@@ -8,48 +8,48 @@ Lectură și instrumente pentru a aprofunda.
 
 ### Chain of Thought Prompting
 - **Paper:** "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models" (Wei et al., 2022)
-- **Idee cheie:** Forțarea LLM-urilor să-și arate pașii de raționament îmbunătățește semnificativ acuratețea
+- **Idee cheie:** forțarea LLM-urilor să-și arate pașii de raționament îmbunătățește semnificativ acuratețea
 
 ### Tree of Thought
 - **Paper:** "Tree of Thoughts: Deliberate Problem Solving with Large Language Models" (Yao et al., 2023)
-- **Idee cheie:** Explorarea mai multor căi de raționament în paralel și selectarea celei mai promițătoare
+- **Idee cheie:** explorarea mai multor căi de raționament în paralel și selectarea celei mai promițătoare
 
 ### Self-Consistency
 - **Paper:** "Self-Consistency Improves Chain of Thought Reasoning in Language Models" (Wang et al., 2022)
-- **Idee cheie:** Generarea mai multor răspunsuri și selectarea celui mai consistent
+- **Idee cheie:** generarea mai multor răspunsuri și selectarea celui mai consistent
 
 ---
 
 ## Instrumente complementare
 
 ### Pentru verificare factuală
-- **Perplexity AI** - Căutare web cu citări
-- **Consensus** - Căutare în literatura științifică
-- **Elicit** - Analiză de research papers
+- **Perplexity AI** - căutare web cu citări
+- **Consensus** - căutare în literatura științifică
+- **Elicit** - analiză de research papers
 
 ### Pentru construcție de prompturi
-- **PromptPerfect** - Optimizare automată de prompturi
-- **Promptbase** - Marketplace de prompturi
-- **FlowGPT** - Comunitate de prompturi
+- **PromptPerfect** - optimizare automată de prompturi
+- **Promptbase** - marketplace de prompturi
+- **FlowGPT** - comunitate de prompturi
 
 ### Pentru testare și iterație
-- **LangSmith** - Debugging pentru aplicații LLM
-- **Weights & Biases** - Tracking experimente
-- **Promptfoo** - Testing automatizat de prompturi
+- **LangSmith** - debugging pentru aplicații LLM
+- **Weights & Biases** - tracking experimente
+- **Promptfoo** - testing automatizat de prompturi
 
 ---
 
 ## Comunități și learning
 
 ### Unde să înveți mai mult
-- **r/PromptEngineering** - Comunitate Reddit
-- **Latent Space** - Podcast despre AI
-- **AI Snake Oil** - Analiză critică a claims-urilor AI
+- **r/PromptEngineering** - comunitate Reddit
+- **Latent Space** - podcast despre AI
+- **AI Snake Oil** - analiză critică a claims-urilor AI
 
 ### Cursuri recomandate
 - **DeepLearning.AI** - Prompt Engineering pentru dezvoltatori
-- **Anthropic's Prompt Engineering Guide** - Ghid oficial Claude
-- **OpenAI Cookbook** - Exemple și best practices
+- **Anthropic's Prompt Engineering Guide** - ghid oficial Claude
+- **OpenAI Cookbook** - exemple și best practices
 
 ---
 
@@ -78,14 +78,14 @@ Lectură și instrumente pentru a aprofunda.
 - **Mistral AI** - Mistral, Mixtral
 
 ### Frameworks
-- **LangChain** - Orchestrare LLM
+- **LangChain** - orchestrare LLM
 - **LlamaIndex** - RAG și indexare
 - **Semantic Kernel** - Microsoft's AI orchestration
 
 ### No-code
-- **Make.com** - Automatizări
-- **Zapier** - Integrări
-- **n8n** - Workflow automation (self-hosted)
+- **Make.com** - automatizări
+- **Zapier** - integrări
+- **n8n** - workflow automation (self-hosted)
 
 ---
 
@@ -93,8 +93,8 @@ Lectură și instrumente pentru a aprofunda.
 
 ### Acest pachet
 - **GitHub:** [link la repo]
-- **Actualizări:** Verifică periodic pentru versiuni noi
-- **Feedback:** Deschide un issue pentru sugestii
+- **Actualizări:** verifică periodic pentru versiuni noi
+- **Feedback:** deschide un issue pentru sugestii
 
 ### Contact autor
 - Dan Mitrut
@@ -106,14 +106,14 @@ Lectură și instrumente pentru a aprofunda.
 
 ### Ianuarie 2025
 - Release inițial V1.0
-- Include: AIM, Arhitect Soluții V2.3, Auditor Veridicitate V1.0, Arhitect Meta-Cognitive V1.0
+- Include: AIM, Arhitect soluții V2.3, Auditor veridicitate V1.0, Arhitect meta-cognitive V1.0
 - Documentație completă în română
 
 ### Planned
-- Versiune în engleză
-- Mașini adiționale specializate
-- Studii de caz extinse
-- Video tutorials
+- versiune în engleză
+- mașini adiționale specializate
+- studii de caz extinse
+- video tutorials
 
 ---
 

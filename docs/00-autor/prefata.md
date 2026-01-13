@@ -4,9 +4,9 @@
 
 În 2023, când am început să lucrez serios cu LLM-uri, am avut o revelație și o frustrare.
 
-**Revelația:** Aceste modele sunt incredibil de capabile. Pot procesa, sintetiza și genera la un nivel care depășește ce poate face un om singur.
+**Revelația:** aceste modele sunt incredibil de capabile. Pot procesa, sintetiza și genera la un nivel care depășește ce poate face un om singur.
 
-**Frustrarea:** Dar de cele mai multe ori, răspunsurile erau superficiale, generice, sau - și mai rău - plausibil false. "Halucinațiile" nu erau excepția, erau norma.
+**Frustrarea:** dar de cele mai multe ori, răspunsurile erau superficiale, generice, sau - și mai rău - plausibil false. "Halucinațiile" nu erau excepția, erau norma.
 
 ---
 
@@ -14,9 +14,9 @@
 
 > "Se poate să forțez AI-ul să gândească cu adevărat, nu doar să simuleze că gândește?"
 
-Răspunsul, după luni de experimentare, a fost: **Da, dar trebuie să-i dai instrucțiuni foarte precise despre CUM să gândească.**
+Răspunsul, după luni de experimentare, a fost: **da, dar trebuie să-i dai instrucțiuni foarte precise despre CUM să gândească.**
 
-Așa s-au născut Mașinile Metacognitive.
+Așa s-au născut mașinile metacognitive.
 
 ---
 
@@ -48,11 +48,11 @@ Nu e teorie. Sunt instrumente funcționale pe care le poți copia și folosi ime
 
 ## Cum să folosești acest ghid
 
-**Dacă ești grăbit:** Du-te direct la capitolul "Mașinile din Fabrică", copiază una, testează.
+**Dacă ești grăbit:** du-te direct la capitolul "Mașinile din fabrică", copiază una, testează.
 
-**Dacă vrei să înțelegi:** Citește Introducerea, apoi AIM, apoi experimentează.
+**Dacă vrei să înțelegi:** citește Introducerea, apoi AIM, apoi experimentează.
 
-**Dacă vrei povestea completă:** Parcurge totul, inclusiv Istoria Proiectului - vei vedea cum s-a construit și de ce funcționează.
+**Dacă vrei povestea completă:** parcurge totul, inclusiv Istoria proiectului - vei vedea cum s-a construit și de ce funcționează.
 
 ---
 
