@@ -2,6 +2,11 @@
 
 * [LLM Machine Factory](README.md)
 
+## Despre
+
+* [Prefață](docs/00-autor/prefata.md)
+* [Despre Autor](docs/00-autor/despre-autor.md)
+
 ## Introducere
 
 * [Ce sunt Mașinile Metacognitive?](docs/01-introducere/ce-sunt-masinile.md)
